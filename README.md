@@ -4,8 +4,11 @@ Exception handling adalah mekanisme dalam Java untuk menangani error atau kondis
 # Analisis Percobaan
 # Percobaan 1
 Error: ArrayIndexOutOfBoundsException karena mengakses indeks ke-5 pada array berukuran 5.
+
 Penanganan: Menambahkan blok try-catch untuk menangkap exception.
+
 Output: Terjadi pelanggaran memory
+
 Analisa: Kesalahan terjadi karena array hanya memiliki indeks dari 0 hingga 4. Dengan exception handling, program tidak berhenti secara paksa.
 # Percobaan 2
 Error: ArrayIndexOutOfBoundsException karena perulangan i < 4, padahal array hanya memiliki 3 elemen.
